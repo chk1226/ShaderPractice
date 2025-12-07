@@ -1,3 +1,4 @@
+//shader toy example: Voronoi Noise
 //reference https://www.youtube.com/watch?v=vcfIJ5Uu6Qw
 
 
@@ -22,7 +23,7 @@ vec3 drawGrid(vec2 uv, float size, out vec2 currentGridId, out vec2 currentGridC
 }
 
 vec2 noise2x2(vec2 p) {
-#if 0
+#if 1
     float x = dot(p, vec2(123.4, 234.5));
     float y = dot(p, vec2(345.6, 456.7));
     vec2 noise = vec2(x, y);
